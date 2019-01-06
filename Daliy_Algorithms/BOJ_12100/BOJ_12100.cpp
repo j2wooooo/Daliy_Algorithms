@@ -1,3 +1,4 @@
+// 백준알고리즘 12100번 :: 2048(EASY)
 #include<iostream>
 #include<queue>
 using namespace std;

@@ -1,4 +1,4 @@
-// 백준알고리즘 2529번 :: 
+// 백준알고리즘 2529번 :: 부등호
 #include<iostream>
 #include<string>
 using namespace std;
@@ -30,7 +30,7 @@ void tracking(int _num, int _idx)
 		// 숫자로 만들기
 		long long num_ans = makenum();
 
-		if (min_ans == 0 || min_ans > num_ans) min_ans = num_ans;
+		if (min_ans == 0) min_ans = num_ans;
 		if (max_ans == 0 || max_ans < num_ans) max_ans = num_ans;
 
 		return;

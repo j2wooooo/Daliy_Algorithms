@@ -1,3 +1,4 @@
+// ë°±ì¤€ì•Œê³ ë¦¬ì¦˜ 15486ë²ˆ :: í‡´ì‚¬2
 #include<iostream>
 using namespace std;
 #define max(a, b) (a > b ? a : b)
@@ -14,7 +15,7 @@ int main(void)
 	}
 	for (i = N; i >= 1; i--)
 	{
-		// i+T[i] °¡ N+1À» ³Ñ¾î°¡¸é ±× ¾ÕÀÇ °ª ±×´ë·Î.
+		// i+T[i] ê°€ N+1ì„ ë„˜ì–´ê°€ë©´ ê·¸ ì•žì˜ ê°’ ê·¸ëŒ€ë¡œ.
 		if (i + T[i] > N + 1)
 		{
 			dp[i] = dp[i + 1];

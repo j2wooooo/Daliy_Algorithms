@@ -1,4 +1,4 @@
-// 백준알고리즘 1079번 :: 
+// 백준알고리즘 1079번 :: 마피아
 #include<iostream>
 using namespace std;
 

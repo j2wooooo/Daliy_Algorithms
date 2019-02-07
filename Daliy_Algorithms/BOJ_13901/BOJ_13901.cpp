@@ -1,4 +1,4 @@
-// 백준알고리즘 13901번 :: 
+// 백준알고리즘 13901번 :: 로봇
 #include<iostream>
 #include<queue>
 using namespace std;

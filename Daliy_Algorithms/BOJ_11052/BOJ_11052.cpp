@@ -16,7 +16,7 @@ int main(void)
 	
 	dp[1] = arr[1];
 
-	for (int i = 1; i <= N; i++)
+	for (int i = 2; i <= N; i++)
 	{
 		for (int j = 0; j < i; j++) {
 			dp[i] = max(dp[i], dp[j] + arr[i - j]);

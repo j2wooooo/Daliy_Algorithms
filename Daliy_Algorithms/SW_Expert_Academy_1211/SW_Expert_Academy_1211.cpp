@@ -1,4 +1,4 @@
-// [S/W 문제해결 기본] 1210. 2일차 - Ladder1
+// [S/W 문제해결 기본] 1211. 2일차 - Ladder2
 #include<iostream>
 #include<cstring>
 using namespace std;

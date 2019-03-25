@@ -10,6 +10,7 @@ int dx[4] = { -1, 1, 0, 0 };
 int dy[4] = { 0, 0, -1, 1 };
 
 void findmaxnum(int x, int y);
+
 // 교환 후, 가장 긴 수열 찾기
 void swapping(int _x, int _y, int _mx, int _my)
 {
@@ -19,18 +20,17 @@ void swapping(int _x, int _y, int _mx, int _my)
 
 	// 변화된 행과 열만 탐색
 
+	findmaxnum(_x, 0);
+	findmaxnum(_y, 1);
+
 	// 같은 행, 다른 열끼리 교환했다.
 	if (_x == _mx)
 	{
-		findmaxnum(_x, 0);
-		findmaxnum(_y, 1);
 		findmaxnum(_my, 1);
 	}
 	// 같은 열, 다른 행끼리 교환했다.
 	else
 	{
-		findmaxnum(_y, 1);
-		findmaxnum(_x, 0);
 		findmaxnum(_mx, 0);
 	}
 
